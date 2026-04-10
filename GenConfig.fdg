@@ -11,12 +11,12 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": true,
+        "EmberApp": false,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": true
+        "GhPagesPush": false
       },
       "ApacheCordova": {
         "CordovaProject": false,
@@ -36,17 +36,17 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": true,
-        "FullSql": true,
-        "Security": true,
-        "AdminUser": true,
-        "ConnectionString": null
-      },
-      "PostgreSql": {
         "DiffSql": false,
         "FullSql": true,
         "Security": false,
         "AdminUser": false,
+        "ConnectionString": null
+      },
+      "PostgreSql": {
+        "DiffSql": true,
+        "FullSql": true,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "ClickHouse": {
